@@ -1,0 +1,24 @@
+# Nodejs API (Backend) for Todo APP
+
+## Technology used
+  `Nodejs` 
+  `express`it is http server to handling http request
+  `mongoose` it is a library to connect to the mongodb database 
+
+## Neeed to install mongodb in the system 
+## open bin directory of mongodb in the command prompt
+## give below command
+`mongod`
+`mongo`
+
+when we will mongo our mongo server is restarted we need to create the database, use below command to create the database
+
+`use todo` this command will create the database and switched to the same database
+  
+## Need to install packages
+
+`npm install`
+
+## After install packages need to run the server
+
+`node index.js`
