@@ -13,6 +13,31 @@ We need to install the mongodb in our system after installation go to bin direct
 > mongo
 > use todo
 ```
+when we will mongo our mongo server is restarted we need to create the database, use below command to create the database
+
+```
+> use todo
+```
+
+this command will create the database and switched to the same database
+
+### Installing
+
+need to install npm packages
+
+```
+npm install
+```
+
+## Deployment in local system
+
+we need to use below command to run our app
+
+```
+node index.js
+```
+
+
 ## Built With
 
 * [Nodejs](https://nodejs.org/en/) - Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient
@@ -20,28 +45,10 @@ We need to install the mongodb in our system after installation go to bin direct
 * [mongoose](http://mongoosejs.com/docs/) - Used to connect to mongodb
 
 
-## Technology used
-  `Nodejs` 
-  `express`
-  `mongoose` it is a library to connect to the mongodb database 
 
-## Neeed to install mongodb in the system 
-## open bin directory of mongodb in the command prompt
-## give below command
-`mongod`
-`mongo`
+## Authors
 
-when we will mongo our mongo server is restarted we need to create the database, use below command to create the database
-
-`use todo` this command will create the database and switched to the same database
-  
-## Need to install packages
-
-`npm install`
-
-## After install packages need to run the server
-
-`node index.js`
+* **Arif Khan** 
 
 
 
