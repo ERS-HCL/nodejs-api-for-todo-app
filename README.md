@@ -1,10 +1,13 @@
-# Nodejs API for TODO APP(Backend)
+# Nodejs API for TODO APP(Backend) [Demo](https://sleepy-citadel-54178.herokuapp.com/api/todos)
 
-This app uses nodejs and express to create the rest services and to persist the data we are using mongoose for mongodb database.
+![nodejs api for todo app](assets/img/logo.jpeg)
 
-### Please go to below link for Frontend for this APP
+This project provides Nodejs API with Express and MongoDB, a backend for frontend or use it as a base for building any kind of API.
 
-[Angular5 TODO APP Git Repository](https://github.com/mdarif-k/angular-todo-app-using-mongodb-backend)
+
+### Please go to below link for Frontend
+
+[Angular5 TODO APP Git Repo](https://github.com/mdarif-k/angular-todo-app-using-mongodb-backend)
 
 ## Getting Started
 
@@ -31,7 +34,7 @@ this command will create the database and switched to the same database
 need to install npm packages
 
 ```
-npm install
+> npm install
 ```
 
 ## Deployment in local system
@@ -39,21 +42,12 @@ npm install
 we need to use below command to run our app
 
 ```
-node index.js
+> node index.js
 ```
 
 
 ## Built With
 
 * [Nodejs](https://nodejs.org/en/) - Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient
-* [express](https://www.express.com/) - it is http server to handling http request
+* [express](https://www.express.com/) - Allows to set up middlewares to respond to HTTP Requests.
 * [mongoose](http://mongoosejs.com/docs/) - Used to connect to mongodb
-
-
-
-## Authors
-
-* **Arif Khan** 
-
-
-
