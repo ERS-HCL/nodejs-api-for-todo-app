@@ -4,6 +4,20 @@
 
 This project provides Nodejs API with Express and MongoDB, a backend for frontend or use it as a base for building any kind of API.
 
+## API calls
+
+we can use `Postman client` to test all API calls. If you are running app in localhost just change URL to `http://localhost:5000/api/todos` .
+
+
+| Request Type          | URL                                   | Description |
+|-----------------------|---------------------------------------|-------------|
+| GET                   | https://sleepy-citadel-54178.herokuapp.com/api/todos | Get all todos |
+| GET                   | https://sleepy-citadel-54178.herokuapp.com/api/todos/{{id}} | Get todo |
+| POST                  | https://sleepy-citadel-54178.herokuapp.com/api/todos | Post todo<br/> sample payload:<br/>`{"desc": "need to join training", "priority": "Medium"}` |
+| DELETE                | https://sleepy-citadel-54178.herokuapp.com/api/todos/{{id}}     | Delete By _id |
+| PATCH                 | https://sleepy-citadel-54178.herokuapp.com/api/todos/{{id}} | Update only few attribute<br/>   sample payload:<br/> `{"isCompleted":false,"lastUpdated":"2018-01-17T17:57:15.370Z"}` |
+
+
 
 ### Please go to below link for Frontend
 
