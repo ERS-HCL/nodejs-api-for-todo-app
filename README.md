@@ -1,14 +1,14 @@
-# Nodejs API(Backend) for Todo APP
+# Nodejs API for TODO APP(Backend)
 
 This app uses nodejs and express to create the rest services and to persist the data we are using mongoose for mongodb database.
 
 ### Please go to below link for Frontend for this APP
 
-[Angular5 TODO APP](https://github.com/mdarif-k/angular-todo-app-using-mongodb-backend)
+[Angular5 TODO APP Git Repository](https://github.com/mdarif-k/angular-todo-app-using-mongodb-backend)
 
 ## Getting Started
 
-These instructions will get help you to up and running on your local machine for development and testing purposes. you can deploy app in local system.
+These instructions will help you to up and running app on your local machine for development and testing purposes. you can deploy app in local system.
 
 ### Prerequisites
 
