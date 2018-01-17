@@ -1,5 +1,5 @@
 const express = require('express')
-const PORT = 4000
+const PORT = process.env.PORT || 4000
 var bodyParser = require('body-parser');
 const app = express();
 app.use(function (req, res, next) {
