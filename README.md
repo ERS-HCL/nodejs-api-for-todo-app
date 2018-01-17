@@ -1,5 +1,15 @@
 # Nodejs API (Backend) for Todo APP
 
+### Prerequisites
+
+We need to install the mongodb in our system after installation go to bin directory and open command prompt and give below commands
+
+```
+> mongod
+> mongo
+> use todo
+```
+
 ## Technology used
   `Nodejs` 
   `express`it is http server to handling http request
@@ -22,3 +32,6 @@ when we will mongo our mongo server is restarted we need to create the database,
 ## After install packages need to run the server
 
 `node index.js`
+
+
+
