@@ -1,4 +1,4 @@
-# Nodejs API for TODO APP(Backend) [Demo](https://sleepy-citadel-54178.herokuapp.com/api/todos)
+# Nodejs API for TODO APP(Backend) [Demo](http://tutorials.way2programming.com/apps/todo-app-with-mongodb-support/index.html)
 
 ![nodejs api for todo app](assets/img/logo.jpeg)
 
@@ -11,11 +11,11 @@ we can use `Postman client` to test all API calls. If you are running app in loc
 
 | Request Type          | URL                                   | Description |
 |-----------------------|---------------------------------------|-------------|
-| GET                   | https://sleepy-citadel-54178.herokuapp.com/api/todos | Get all todos |
-| GET                   | https://sleepy-citadel-54178.herokuapp.com/api/todos/{{id}} | Get todo |
-| POST                  | https://sleepy-citadel-54178.herokuapp.com/api/todos | Post todo<br/> sample payload:<br/>`{"desc": "need to join training", "priority": "Medium"}` |
-| DELETE                | https://sleepy-citadel-54178.herokuapp.com/api/todos/{{id}}     | Delete By _id |
-| PATCH                 | https://sleepy-citadel-54178.herokuapp.com/api/todos/{{id}} | Update only few attribute<br/>   sample payload:<br/> `{"isCompleted":false,"lastUpdated":"2018-01-17T17:57:15.370Z"}` |
+| GET                   | https://localhost:5000/api/todos | Get all todos |
+| GET                   | https://localhost:5000/api/todos/{{id}} | Get todo |
+| POST                  | https://localhost:5000/api/todos | Post todo<br/> sample payload:<br/>`{"desc": "need to join training", "priority": "Medium"}` |
+| DELETE                | https://localhost:5000/api/todos/{{id}}     | Delete By _id |
+| PATCH                 | https://localhost:5000/api/todos/{{id}} | Update only few attribute<br/>   sample payload:<br/> `{"isCompleted":false,"lastUpdated":"2018-01-17T17:57:15.370Z"}` |
 
 
 
@@ -35,13 +35,13 @@ We need to install the mongodb in our system after installation go to bin direct
 > mongod
 > mongo
 ```
-when we will mongo our mongo server is restarted we need to create the database, use below command to create the database
+when we will use mongo command our mongodb server will restart and now we need to create the database, use below command to create the database
 
 ```
 > use todo
 ```
 
-this command will create the database and switched to the same database
+the above command will create the database and switched to the same database
 
 ### Installing
 
